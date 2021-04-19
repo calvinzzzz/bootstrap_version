@@ -19,7 +19,7 @@
     renderer = new THREE.WebGLRenderer({
         antialias: true
     });
-    renderer.setSize(window.innerWidth * .6, window.innerHeight * .6);
+    renderer.setSize(window.innerWidth * .7, window.innerHeight * .7);
 
     var model = document.getElementById("model-wrapper");
     model.appendChild(renderer.domElement);

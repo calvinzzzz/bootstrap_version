@@ -2,6 +2,11 @@
 <html>
 
 <head>
+<style>
+    .slider{
+        width: 110% !important;
+    }
+</style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Project Page - Brand</title>
@@ -12,7 +17,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css" integrity="sha512-3q8fi8M0VS+X/3n64Ndpp6Bit7oXSiyCnzmlx6IDBLGlY5euFySyJ46RUlqIVs0DPCGOypqP8IRk/EyPvU28mQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.css" integrity="sha512-SZgE3m1he0aEF3tIxxnz/3mXu/u/wlMNxQSnE0Cni9j/O8Gs+TjM9tm1NX34nRQ7GiLwUEzwuE3Wv2FLz2667w==" crossorigin="anonymous" />
 </head>
-
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="box-shadow: inset 0px 0px rgb(237,5,5);text-shadow: 0px 0px rgb(6,6,6);">
         <div class="container"><a class="navbar-brand logo" href="#">Cochlea.nz</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -32,12 +36,10 @@
                 <picture><img></picture>
                 <div class="row">
                     <div class="col-12 col-md-6 offset-md-1 info">
-                        <h3>Description</h3>
-                        <p>These are layer by layer micro CT scans of a sheep skull representing a sheep's cochlea which will allow us to view the cochlea location inside the scull along with a 2D representation of what layer we will be viewing.</p>
                         <input
                             type="text"
-                            id="imageSilderID"
-                            name="imageSilder"
+                            id="imageSliderID"
+                            name="imageSlider"
                             data-provide="slider"
                             data-slider-ticks="[1, 477]"
                             data-slider-ticks-labels='["1st", "last page"]'
@@ -47,7 +49,9 @@
                             data-slider-value="3"
                             data-slider-tooltip="hide"
                         >
-                        <img id="imgViewer" src="assets/img/Sheep MicroCT/resized_20191028s__IR_rec00000637.jpg" width="600px" height="600px" />
+                        <img id="imgViewer" src="assets/img/Sheep MicroCT/resized_20191028s__IR_rec00000637.jpg" width="600px" height="600px" align="center"/>
+                        <h3>Description</h3>
+                        <p>These are layer by layer micro CT scans of a sheep skull representing a sheep's cochlea which will allow us to view the cochlea location inside the scull along with a 2D representation of what layer we will be viewing.</p>
                     </div>
                     <div class="col-12 col-md-3 offset-md-1 meta">
                         <div class="tags"><span class="meta-heading">Tags</span><a href="#">Resource</a><a href="#">Project</a><span class="meta-heading">Date</span><span>25-04-2017</span></div>

@@ -19,7 +19,7 @@ let generateUrl = function (defaultValue) {
     return url;
 }
 
-$('#imageSilderID').on('change', function(o){
+$('#imageSliderID').on('change', function(o){
    //return amount value
    currentValue = o.value.newValue;
    var imagePath = generateUrl(currentValue);
