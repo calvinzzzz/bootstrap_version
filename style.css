@@ -1,0 +1,12 @@
+body {
+    background-image: url("/assets/img/Background_Main.jpg");
+    background-repeat: no-repeat;
+    background-size:1600px 1150px;
+    color:#FFF;font-weight:bold;
+}
+.nav {
+    background-color: transparent;
+}
+links{
+    color:#FFF;font-weight:bold;
+}
