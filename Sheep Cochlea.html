@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css" integrity="sha512-3q8fi8M0VS+X/3n64Ndpp6Bit7oXSiyCnzmlx6IDBLGlY5euFySyJ46RUlqIVs0DPCGOypqP8IRk/EyPvU28mQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.css" integrity="sha512-SZgE3m1he0aEF3tIxxnz/3mXu/u/wlMNxQSnE0Cni9j/O8Gs+TjM9tm1NX34nRQ7GiLwUEzwuE3Wv2FLz2667w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
+    <style>
+        .slider{
+         width: 110% !important;
+    }</style>
 </head>
 
 <body>
@@ -33,8 +37,7 @@
                 <picture><img></picture>
                 <div class="row">
                     <div class="col-12 col-md-6 offset-md-1 info">
-                        <h3>Description</h3>
-                        <p>These are layer by layer micro CT scans of a sheep skull representing a sheep's cochlea which will allow us to view the cochlea location inside the scull along with a 2D representation of what layer we will be viewing.</p>
+                        
                         <input
                             type="text"
                             id="imageSilderID"
@@ -49,17 +52,15 @@
                             data-slider-tooltip="hide"
                         >
                         <img id="imgViewer" src="assets/img/Sheep MicroCT/resized_20191028s__IR_rec00000637.jpg" width="600px" height="600px" />
+                        <h3>Description</h3>
+                        <p>These are layer by layer micro CT scans of a sheep skull representing a sheep's cochlea which will allow us to view the cochlea location inside the scull along with a 2D representation of what layer we will be viewing.</p>
                     </div>
                     <div class="col-12 col-md-3 offset-md-1 meta">
                         <div class="tags"><span class="meta-heading">Tags</span><a href="#">Resource</a><a href="#">Project</a><span class="meta-heading">Date</span><span>25-04-2017</span></div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 offset-xl-5"><a class="btn btn-primary text-center border rounded-pill" role="button" href="3D%20sheep%20cochlea.html">View Cochlea in 3D</a></div>
-                </div>
-            </div>
+            
             <div class="container">
                 <div class="col"></div>
             </div>
