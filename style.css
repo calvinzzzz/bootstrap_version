@@ -4,6 +4,9 @@ body {
     background-size:1600px 1150px;
     color:#FFF;font-weight:bold;
 }
+.bg-primary{
+    background-color: rgb(12, 63, 171)!important;
+}
 .nav {
     background-color: transparent;
 }

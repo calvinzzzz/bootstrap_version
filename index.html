@@ -13,16 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">Cochlea.nz</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <h2>Hi</h2>
+    <div class="header"></div>
     <main class="page lanidng-page">
         <section class="portfolio-block photography" style="color: rgba(33,37,41,0);">
             <div class="container">
@@ -49,7 +40,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-4 item zoom-on-hover">
-                        <a href="Sheep%20Cochlea.html">
+                        <a href="3D sheep cochlea.html">
                             <img class="img-fluid image" src="assets/img/home2.png" height="79%" width="80%" alt="center" style="background: black;">
                         </a>
                         <div class="rect">
@@ -70,16 +61,18 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a style=color:#FFF;font-weight:bold; href="About%20US.html">About US</a><a style=color:#FFF;font-weight:bold; href="Contact%20us.html">Contact Us</a><a style=color:#FFF;font-weight:bold; href="#">Creators</a></div>
-            <div class="social-icons"><a href="https://www.facebook.com/AVTNC1/"><i class="icon ion-social-facebook"></i></a><a href="https://www.fmhs.auckland.ac.nz/en/sms/about/our-departments/physiology/research-groups/auditory-neurobiology.html?fbclid=IwAR2FC-77hVeRTNDayDZ1Y_B2KtQagUXHfXUQaJgc7Fyi7gjUh2ng49SJEMU"><i class="icon ion-paintbucket"></i></a><a href="https://www.aut.ac.nz/"><i class="icon ion-ios-chatbubble-outline"></i></a></div>
-        </div>
-    </footer>
+    <div class="footer"></div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script type="text/javascript">
+        //import page
+        $(document).ready(function () {
+            $('.header').load('./header.html'); 
+            $('.footer').load('./footer.html');
+        });
+    </script>
 </body>
 
 </html>
