@@ -7,6 +7,21 @@ body {
 .nav {
     background-color: transparent;
 }
+.img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rect {
+    height: 180px;
+    width: 250px;
+    color: white;
+    background-color: rgba(53, 97, 143, 1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 .block-intro{
     border-style: none;
     height: 100%;
