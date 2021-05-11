@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/img/Background_Main.jpg");
+    background-color: black;
     background-repeat: no-repeat;
     background-size:1600px 1150px;
     color:#FFF;font-weight:bold;
@@ -7,6 +7,12 @@ body {
 .nav {
     background-color: transparent;
 }
-links{
+.block-intro{
+    background-image: url("/assets/img/Home.png");
+    border-style: none;
+    height: 100%;
+    width: 100%;
+}
+.links{
     color:#FFF;font-weight:bold;
 }
