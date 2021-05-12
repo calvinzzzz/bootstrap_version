@@ -19,15 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="box-shadow: inset 0px 0px rgb(237,5,5);text-shadow: 0px 0px rgb(6,6,6);">
-        <div class="container"><a class="navbar-brand logo" href="#">Cochlea.nz</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="header"></div>
     <main class="Sheep Cochlea">
         <section class="portfolio-block project">
             <div class="container">
@@ -68,18 +60,20 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="About%20US.html">About US</a><a href="Contact%20us.html">Contact Us</a><a href="#">Creators</a></div>
-            <div class="social-icons"><a href="https://www.facebook.com/AVTNC1/"><i class="icon ion-social-facebook"></i></a><a href="https://www.fmhs.auckland.ac.nz/en/sms/about/our-departments/physiology/research-groups/auditory-neurobiology.html?fbclid=IwAR2FC-77hVeRTNDayDZ1Y_B2KtQagUXHfXUQaJgc7Fyi7gjUh2ng49SJEMU"><i class="icon ion-paintbucket"></i></a><a href="https://www.aut.ac.nz/"><i class="icon ion-ios-chatbubble-outline"></i></a></div>
-        </div>
-    </footer>
+    <div class="footer"></div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js" integrity="sha512-f0VlzJbcEB6KiW8ZVtL+5HWPDyW1+nJEjguZ5IVnSQkvZbwBt2RfCBY0CBO1PsMAqxxrG4Di6TfsCPP3ZRwKpA==" crossorigin="anonymous"></script>
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/slider.js"></script>
+    <script type="text/javascript">
+        //import page
+        $(document).ready(function () {
+            $('.header').load('./header.html'); 
+            $('.footer').load('./footer.html');
+        });
+    </script>
     
 </body>
 
