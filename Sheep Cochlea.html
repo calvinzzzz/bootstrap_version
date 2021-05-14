@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .slider{
-         width: 110% !important;
-         
-    }</style>
+            min-height: 550px;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,34 +30,51 @@
                 </div>
                 <picture><img></picture>
                 <div class="row">
-                    <div class="col-12 col-md-6 offset-md-1 info">
-                        
-                        <input
-                            type="text"
-                            id="imageSilderID"
-                            name="imageSilder"
-                            data-provide="slider"
-                            data-slider-ticks="[1, 477]"
-                            data-slider-ticks-labels='["1st", "last page"]'
-                            data-slider-min="1"
-                            data-slider-max="3"
-                            data-slider-step="1"
-                            data-slider-value="3"
-                            data-slider-tooltip="hide"
-                           
-                        >
+                    <div class="col-12 col-md-7">
                         <img id="imgViewer" src="assets/img/Sheep MicroCT/resized_20191028s__IR_rec00000637.jpg" width="600px" height="600px" />
-                        <h3>Description</h3>
-                        <p>MicroCT Analysis of the Cochlea
-                        Here, we have used a technique called microCT to build a 3D model of the cochlea based on the real sample.
-                        MicroCT gives you a cross-sectional view of the cochlea at any location. Use cochlea slicer below, to explore the cochlea yourself!
-                        </p>
-                        
                     </div>
+                    <div class="col-12 col-md-1">
+                        <input
+                        type="text"
+                        id="imageSilderID"
+                        name="imageSilder"
+                        data-provide="slider"
+                        data-slider-ticks="[1, 477]"
+                        data-slider-ticks-labels='["1st", "Last"]'
+                        data-slider-min="1"
+                        data-slider-max="3"
+                        data-slider-step="1"
+                        data-slider-value="3"
+                        data-slider-tooltip="hide"
+                        data-slider-orientation="vertical"
+                    >
+                    </div>   
+                    <div class="col-12 col-md-4">
+                        <p>First Image</p>
+                        <img height="150px" style="margin-bottom:40px; border: 2px solid #ccc!important;" src="assets/img/Sheep MicroCT/resized_20191028s__IR_rec00000581.jpg" />
+                        <p>Mid Image</p>
+                        <img height="150px" style="margin-bottom:40px; border: 2px solid #ccc!important;" src="assets/img/Sheep MicroCT/resized_20191028s__IR_rec00001313.jpg" />
+                        <p>Last Image</p>
+                        <img height="150px" style="border: 2px solid #ccc!important;" src="assets/img/Sheep MicroCT/resized_20191028s__IR_rec00002489.jpg" />
+                    </div>                     
+                </div>
+                                   
+                <h3>Description</h3>
+                <p>MicroCT Analysis of the Cochlea
+                Here, we have used a technique called microCT to build a 3D model of the cochlea based on the real sample.
+                MicroCT gives you a cross-sectional view of the cochlea at any location. Use cochlea slicer below, to explore the cochlea yourself!
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="center" style="margin-left: 200px;" id="Sheep Cochlea" height="450px" width="600px" src="assets/img/slicer1.png"/>
+                </div>
+                <div class="col-md-6">
+                    <img id="Sheep Cochlea" height="450px" width="400px" src="assets/img/sheep1.PNG"/>
                 </div>
             </div>
-            <img id="Sheep Cochlea" src="assets/img/slicer1.png"/>
-                        <img id="Sheep Cochlea" src="assets/img/slicer2.png"/>
+
             <div class="container">
                 <div class="col"></div>
             </div>

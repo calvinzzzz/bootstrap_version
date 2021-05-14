@@ -7,9 +7,15 @@ body {
 .bg-primary{
     background-color: rgb(12, 63, 171)!important;
 }
+
 .nav {
     background-color: transparent;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
 .img-fluid{
     display: block;
     margin-left: auto;

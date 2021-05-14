@@ -1,6 +1,6 @@
 
 // Instantiate a slider
-var mySlider = $("input.slider").bootstrapSlider();
+var mySlider = $("input.slider").bootstrapSlider("vertical");
 
 // Call a method on the slider
 var value = mySlider.bootstrapSlider('getValue');
