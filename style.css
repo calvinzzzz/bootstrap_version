@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size:1600px 1150px;
     color:#FFF;font-weight:bold;
+    font-family: Calibri;
 }
 .bg-primary{
     background-color: rgb(12, 63, 171)!important;
@@ -39,12 +40,6 @@ body {
     position: absolute;
     top:560px;
     right:150px;
-}
-.sensory01{
-    font-size: 16px;
-    color:lightsteelblue;
-    top:1130px;
-    left:50px;
 }
 .rect {
     height: 180px;
