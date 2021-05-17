@@ -41,6 +41,13 @@ body {
     top:560px;
     right:150px;
 }
+.ves01{
+    font-size: 16px;
+    color:lightsteelblue;
+    position: absolute;
+    top:1912px;
+    left:300px;
+}
 .rect {
     height: 180px;
     width: 250px;
