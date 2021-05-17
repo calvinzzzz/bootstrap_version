@@ -33,6 +33,13 @@ body {
     top:900px;
     right:px;
 }
+.organ01{
+    font-size: 16px;
+    color:lightsteelblue;
+    position: absolute;
+    top:560px;
+    right:150px;
+}
 .rect {
     height: 180px;
     width: 250px;
