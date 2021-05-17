@@ -48,6 +48,13 @@ body {
     top:1912px;
     left:300px;
 }
+.mod01{
+    font-size: 16px;
+    color:lightsteelblue;
+    position: absolute;
+    top:0px;
+    left:400px;
+}
 .rect {
     height: 180px;
     width: 250px;
