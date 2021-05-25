@@ -3,7 +3,9 @@ body {
     background-repeat: no-repeat;
     background-size:1600px 1150px;
     color:#FFF;font-weight:bold;
-    font-family: Calibri;
+    font-family: Calibri;   
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .bg-primary{
     background-color: rgb(12, 63, 171)!important;
