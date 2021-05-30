@@ -2,6 +2,7 @@ body {
     background-color: black;
     background-repeat: no-repeat;
     background-size:1600px 1150px;
+    letter-spacing: 1.5px;
     color:#FFF;font-weight:bold;
     font-family: Calibri;   
     overflow-x: hidden;
@@ -28,7 +29,7 @@ body {
     color:lightsteelblue;
     position: absolute;
     top:560px;
-    right:520px;
+    right:560px;
 }
 .main02{font-size: 16px;
     color:lightsteelblue;
