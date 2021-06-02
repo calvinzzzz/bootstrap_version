@@ -28,8 +28,8 @@ body {
 .main01{font-size: 16px;
     color:lightsteelblue;
     position: absolute;
-    top:560px;
-    right:560px;
+    top:400px;
+    right:-200px;
 }
 .main02{font-size: 16px;
     color:lightsteelblue;
