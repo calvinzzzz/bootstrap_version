@@ -2,10 +2,11 @@
     var raycaster = new THREE.Raycaster();
     var mouse = new THREE.Vector2();
     document.addEventListener( 'mousemove', onMouseMove, false );
-
+    let width =  $("#3D-main").width();
+    const height = window.innerHeight;
     function onMouseMove(event) {
-        mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-        mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+        mouse.x = (event.clientX /width) * 2 - 1;
+        mouse.y = -(event.clientY / height) * 2 + 1;
     }
 
     // Setup some basic stuff
@@ -13,13 +14,13 @@
     scene.background = new THREE.Color(0xdddddd);
 
     // Setup Camera 
-    camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 1, 5000);
+    camera = new THREE.PerspectiveCamera(40,width / height, 1, 5000);
 
     // Setup renerer and add to page
     renderer = new THREE.WebGLRenderer({
         antialias: true
     });
-    renderer.setSize(window.innerWidth * .7, window.innerHeight * .7);
+    renderer.setSize(width, height);
 
     var model = document.getElementById("model-wrapper");
     model.appendChild(renderer.domElement);
@@ -27,10 +28,9 @@
     window.addEventListener('resize', onWindowResize, false);
 
     function onWindowResize() {
-        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.aspect =width / height;
         camera.updateProjectionMatrix();
-
-        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setSize(width, height);
     }
 
     // Setup Camera Position

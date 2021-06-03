@@ -15,41 +15,60 @@
 <body style="background-color:white">
     <div class="header"></div>
     <main>
-        <section class="portfolio-block">
-            <div class="container">
-                <div class="heading" style="padding:0; margin:0 0;">
-                    <h2 style="color:black; text-align:left;">interactive 3D sheep cochlea</h2>
-                    <hr style="color:black;" />
+        <section class="portfolio-block" style="padding-bottom:0px">
+            <div  class="container">
+                <div class="row">
+                    <div class="heading" style="padding:0; margin:0 0;">
+                        <h2 style="color:black; text-align:left;">interactive 3D sheep cochlea</h2>
+                        <hr style="color:black;" />
+                    </div>
                 </div>
                 <div class="row">
-                    <div id="model-wrapper" style="width: 800px; height: 600px;"></div>
-                <div style="height: 70px; width: 28.5cm; position:absolute; top:100%;" >
-                    <div style="position:absolute;">
-                        <p  style="color:rgba(53, 97, 143, 0.8);">Interactive 3D model:
-                            Based on the 3D model from microCT, we created interactive online application here for you to explore the cochlea. It also includes the balance system. Let’s explore!
-                        </p>
-                    </div>
-                    <div style="height: 100%; width: 28.5cm; opacity: 0.5; background-color: rgba(53, 97, 143, 0.8); position:absolute; border: 1px solid #000;" ></div>  
+                    <div id="model-wrapper"></div>
                 </div>
-
-                <div style=" margin: 60px 0px 0px 0px; top:120%;">
-                    <img id="3D images" src="assets/img/3DModel1.png" width="1075px" height="365px"/>
-                </div>
-                    <div style="height: 200px; width: 10cm; right: 35%; top: 120%; position:absolute;">
-                        <div class="about-me" style="height: 200px; width: 10cm; right: 35%; top: 130%;" >
-                        <div style="position:absolute;">
-                            <p>Cochlea labyrinth microCT:
-                            Using microCT, we have constructed 3D model of the cochlea.
-                            LEFT: External features of the cochlea – mainly the bony shell is visible.
-                            RIGHT: In this model, fluid filled inside space of the cochlea is modelled 3D.
-                            </p>
+                <div class="row">
+                    <div class="col-md-16 col-lg-16" style="padding: 0px 2px;" id="3D-main">
+                        <div style="height: 70px; width: 100%;" >
+                                <div style="margin:45px 0px;">
+                                    <p  style="color:rgba(53, 97, 143, 0.8); margin: 45px 40px">Interactive 3D model:<br/>
+                                        Based on the 3D model from microCT, we created interactive online application here for you to explore the cochlea. It also includes the balance system. Let’s explore!
+                                    </p>
+                                </div>
+                                <div style="
+                                height: 150px; 
+                                width: 100%; 
+                                margin: -150px 0px;
+                                opacity: 0.5; 
+                                background-color: rgba(53, 97, 143, 0.8); 
+                                border: 1px solid #000;" ></div>  
+                            </div>
                         </div>
-                    <div style="height: 150px; width: 10cm; right: 35%; top: 130%; opacity: 0.5; background-color: rgb(43, 142, 248);  border: 1px solid #000;" ></div>
+                    </div>
 
+                <div class="row">
+                    <div>
+                        <img style="margin-top: 50px;height: 100%;width: 100%;padding-bottom: 50px;" id="Vestibular System images" src="assets/img/3DModel1.png"/>   
+                    </div>      
+                    <div>
+                        <div style="
+                       
+                        background-color: rgba(53, 97, 143, 0.8);
+                        height: 165px;
+                        padding: 5px;
+                        width: 350px;
+                        color:lightsteelblue;
+                        margin:-350px 0px 0px 450px;
+                        font-size: 14px;"
+                        
+                        >
+                        Cochlea labyrinth microCT:<br/>
+                                Using microCT, we have constructed 3D model of the cochlea.<br/>
+                                LEFT: External features of the cochlea – mainly the bony shell is visible.<br/>
+                                RIGHT: In this model, fluid filled inside space of the cochlea is modelled 3D.
+                        </div>
                     </div>
                 </div>
-                </div>
-               
+                    </div>
                 </div>
             </div>
         </section>
